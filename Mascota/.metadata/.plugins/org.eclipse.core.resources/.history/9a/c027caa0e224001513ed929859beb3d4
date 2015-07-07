@@ -1,0 +1,10 @@
+
+public class Pez implements Mascota{
+
+	@Override
+	public void moverse() {
+    System.out.println("Estamos buscando a Nemo")		
+	}
+	
+
+}

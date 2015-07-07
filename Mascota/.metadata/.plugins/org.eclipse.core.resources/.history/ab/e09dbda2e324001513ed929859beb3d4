@@ -1,0 +1,13 @@
+
+public class Main {
+
+	Pez nemo = new Pez();
+	Perro arturo = new Perro();
+	Canario aguila = new Canario();
+	Persona patricio = new Persona(nemo);
+	Persona roberto = new Persona(arturo);
+	Persona alejandra = new Persona(aguila);
+	
+	patricio.moverMascota();
+	
+}

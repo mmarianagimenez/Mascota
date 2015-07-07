@@ -1,0 +1,6 @@
+
+public class Persona implements Mascota{
+  Mascota miMascota;
+  
+
+}

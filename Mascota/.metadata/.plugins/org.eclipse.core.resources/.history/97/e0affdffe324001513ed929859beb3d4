@@ -1,0 +1,25 @@
+
+public class Main {
+
+		/**
+		 * @param args
+		 */
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+
+			Pez nemo = new Pez();
+			Perro arturo = new Perro();
+			Canario aguila = new Canario();
+			Persona patricio = new Persona(nemo);
+			Persona roberto = new Persona(arturo);
+			Persona alejandra = new Persona(aguila);
+			
+			patricio.moverMascota();
+			alejandra.moverMascota();
+			
+			
+		}
+
+	}
+
+

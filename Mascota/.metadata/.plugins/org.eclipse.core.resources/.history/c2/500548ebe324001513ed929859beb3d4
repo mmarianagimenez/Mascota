@@ -1,0 +1,17 @@
+
+public class Persona{
+
+	Mascota miMascota;
+  
+    public Persona(Mascota mascot){
+    	
+    	this.miMascota = mascot;
+    	
+    }
+	
+    public void moverMascota(){
+    	
+    	this.miMascota.moverse();
+    }
+    
+}
